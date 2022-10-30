@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'InhoAlert_Example' do
+  pod 'InhoAlert', :path => '../'
+
+  target 'InhoAlert_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
